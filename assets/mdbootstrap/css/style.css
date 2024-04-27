@@ -1,0 +1,164 @@
+/* Required height of parents of the Full Page Carousel for proper displaying carousel itself */
+html,
+body,
+.view {
+  height: 100%; }
+
+/* Full Page Carousel itself*/
+.carousel {
+  height: 100%; }
+  .carousel .carousel-inner {
+    height: 100%; }
+    .carousel .carousel-inner .carousel-item,
+    .carousel .carousel-inner .active {
+      height: 100%; }
+
+/* Navbar animation */
+.navbar {
+  background-color: #004373; }
+
+.navbar li.nav-item:hover{
+      background-color: #9b9b9b;
+    }
+
+.navbar-brand{
+  margin-right: 40px;
+  margin-left: 30px;
+}
+
+.navbar-brand img{
+  width: 70px; 
+  height: 30px;
+}
+
+.top-nav-collapse {
+  background-color: #1156c4; }
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #1156c4; } }
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #1C2331; }
+
+.page-footer a {
+  text-decoration: none;
+}
+
+.page-footer a:hover {
+  background: #9b9b9b;
+  color: #ffffff;
+}
+
+
+/*section header*/
+#header .col-md-3{
+  background-color: #444444;
+}
+
+#header .col-md-3 p{
+  padding-top: 10px;
+}
+
+#header .col-md-9 p{
+  padding-top: 10px;
+}
+
+#header .col-md-9{
+  background-color: #ff0000;
+}
+
+#slide2 {
+  background-color: #333333;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
+
+#slide2 .img{
+  width: 100%;
+  height: 100%;
+}
+
+.review .col-md-7{
+  margin-left: 30px; 
+  margin-right: 12px; 
+  padding: 5px 5px;
+}
+
+.review .figure {
+      display: inline-block;
+      padding: 2px 2px;
+    }
+
+.review .figure-caption{
+  color: #000000;
+  font-family: GOTHIC;
+}
+
+.review .figure img{
+      width: 180px; 
+      height: 150px;
+    }
+
+ @media (max-width: 767.98px) { 
+  #review-foto{
+    margin-top: 20px;
+  }
+
+  }
+
+#foto img{
+      width: 100%;
+      height: 80%;
+          }
+
+
+
+@media (min-width: 400px) {
+          .form form {
+            grid-template-columns: 130px;
+            grid-gap: 4px;
+          }
+
+.form label {
+            text-align: left;
+            grid-column: 1 / 2;
+          }
+
+.form input,textarea,
+          button {
+            /*grid-column: 2 / 3;*/
+          }
+        }
+
+.map-container{
+          overflow:hidden;
+          padding-bottom:56.25%;
+          position:relative;
+          height:0;
+          }
+.map-container iframe{
+          left:0;
+          top:0;
+          height:100%;
+          width:100%;
+          position:absolute;
+          }
+
+.info .col-md-5{
+  padding-top: 10px;
+  background-color: #333333; 
+}
+
+.info .col-md-7{
+  padding-top: 10px;
+  background-color: #333333; 
+}
+
+#review-foto{
+  padding: 10px 50px;
+}
